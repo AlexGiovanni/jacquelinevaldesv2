@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @include font-face( Gistesy, '~/assets/fonts/Gistesy', 400, normal, otf); */
+
+
+@layer base{
+    @font-face {
+        font-family: "Gistesy";
+        src: local("Gistesy"),
+         url(Gistesy.ttf) format('truetype');
+    }
+}
