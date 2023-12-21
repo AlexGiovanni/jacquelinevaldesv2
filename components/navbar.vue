@@ -76,6 +76,7 @@
 
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul
+      @click="toggleNav"
         :class="showMenu ? 'flex' : 'hidden'"
         class="
           flex-col
